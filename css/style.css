@@ -45,7 +45,7 @@ h3 {
   height: 3px;
   background: #FFFFFF;
   border-radius: 60px;
-  left: calc(50% - 36.5px + 0.5px);
+  left: 613px;
   bottom: -15%;
 }
 .title::after {
@@ -53,7 +53,7 @@ h3 {
   position: absolute;
   width: 25px;
   height: 3px;
-  left: calc(50% - 12.5px + 0.5px);
+  left: 637px;
   bottom: -34%;
   background: #FFFFFF;
   border-radius: 60px;
@@ -118,9 +118,8 @@ p {
   color: #E6A859;
 }
 
-/* baner */
 .baner {
-  background: url("/img/baner.svg") center/cover no-repeat;
+  background: url("/img/baner.png") center/cover no-repeat;
   min-height: 964px;
 }
 .baner .baner-content {
@@ -540,9 +539,11 @@ textarea {
     margin: 26px 0 46px;
   }
   .title::before {
-    bottom: 13%;
+    left: 142px;
+    bottom: 12%;
   }
   .title::after {
+    left: 165px;
     bottom: -2%;
   }
   p,
