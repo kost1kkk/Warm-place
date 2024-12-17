@@ -142,7 +142,7 @@ p {
 
 // baner
 .baner {
-    background: url("/img/baner.png") center/cover no-repeat;
+    background: url("../img/baner.png") center/cover no-repeat;
     min-height: 964px;
 
     .baner-content {
@@ -179,7 +179,7 @@ p {
         position: absolute;
         right: 94%;
         bottom: -14%;
-        content: url("/img/Frame.png");
+        content: url("../img/Frame.png");
     }
 
     .about-us-main {
@@ -239,7 +239,7 @@ p {
     margin-bottom: 130px;
 
     &::after {
-        content: url("/img/Frame\ 5.png");
+        content: url("..img/Frame\ 5.png");
         position: absolute;
         right: 94%;
         bottom: -15%;
@@ -296,7 +296,7 @@ p {
         left: 85%;
         bottom: -27%;
         position: absolute;
-        content: url("/img/Frame-1.png");
+        content: url("../img/Frame-1.png");
     }
 }
 
@@ -330,7 +330,7 @@ p {
     position: relative;
 
     &::after {
-        content: url("/img/skobki.png");
+        content: url("../img/skobki.png");
         position: absolute;
         left: 90%;
     }
@@ -376,7 +376,7 @@ p {
     display: flex;
     justify-content: center;
     list-style: none;
-    background-image: url("/img/social-media_3.png");
+    background-image: url("../img/social-media_3.png");
 
     a {
         position: relative;
@@ -398,17 +398,17 @@ p {
 
 .social-forth {
     width: 69px;
-    background-image: url("/img/social-media_2.png")
+    background-image: url("../img/social-media_2.png")
 }
 
 .social-second {
     width: 111px;
-    background-image: url("/img/social-media_4.png")
+    background-image: url("../img/social-media_4.png")
 }
 
 .social-third {
     width: 152px;
-    background-image: url("/img/social-media_4.png")
+    background-image: url("../img/social-media_4.png")
 }
 
 
@@ -420,7 +420,7 @@ p {
     margin-top: 230px;
 
     &::before {
-        content: url("/img/Frame-4.png");
+        content: url("../img/Frame-4.png");
         position: absolute;
         right: 92%;
         top: -14%;
@@ -515,7 +515,7 @@ textarea {
         display: flex;
         justify-content: center;
         list-style: none;
-        background-image: url("/img/We\ are\ on\ social-media.png");
+        background-image: url("../img/We\ are\ on\ social-media.png");
 
         a {
             position: relative;
@@ -544,7 +544,7 @@ textarea {
     }
 
     .scrollup {
-        background-image: url("/img/up.png");
+        background-image: url("../img/up.png");
         cursor: pointer;
         position: fixed;
         min-height: 46px;
@@ -591,7 +591,7 @@ textarea {
         }
 
         .navbar-toggler-icon {
-            background-image: url("/img/icon-menu.png");
+            background-image: url("../img/icon-menu.png");
             padding: 18px;
 
         }
@@ -696,7 +696,7 @@ textarea {
         &::after {
             right: 2%;
             bottom: -17%;
-            content: url("/img/about-us.png");
+            content: url("../img/about-us.png");
         }
 
     }
@@ -712,7 +712,7 @@ textarea {
         &::after {
             left: 70%;
             bottom: -5%;
-            content: url("/img/Frame-1.png");
+            content: url("../img/Frame-1.png");
         }
     }
 
